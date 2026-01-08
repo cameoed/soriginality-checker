@@ -1,0 +1,42 @@
+{
+  "manifest_version": 1,
+  "name": "Soriginality Checker",
+  "version": "1.0.0",
+  "permissions": [
+    "sidePanel",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidebar.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://sora.chatgpt.com/*"],
+      "js": ["interceptor.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": ["https://sora.chatgpt.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "ISOLATED"
+    }
+  ],
+  "action": {
+    "default_title": "Open Soriginality Checker",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
