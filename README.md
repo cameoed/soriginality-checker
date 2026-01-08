@@ -20,7 +20,12 @@ You need a **SerpAPI Private Key** (Free tier allows 250 searches/month).
 1. Register at [SerpAPI.com](https://serpapi.com/).
 2. Copy your API Key from the dashboard.
 
+---
+
 ### Installation
+
+<img src="download.jpg" alt="Download" width="600" />
+
 
 1. Download zip of this repository, unzip the folder.
 2. Open Chrome and navigate to `chrome://extensions/`.
@@ -28,7 +33,9 @@ You need a **SerpAPI Private Key** (Free tier allows 250 searches/month).
 4. Click **Load unpacked** and select this folder.
 5. Pin the extension to your topbar
 
-### Usage
+---
+
+### How to Use
 
 1. Navigate to [sora.chatgpt.com](https://sora.chatgpt.com/).
 2. Click the **Soriginal** icon to open the Side Panel.
