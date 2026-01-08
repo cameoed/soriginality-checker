@@ -37,7 +37,7 @@ You need a **SerpAPI Private Key** (Free tier allows 250 searches/month).
 
 ### How to Use
 
-1. Navigate to [sora.chatgpt.com](https://sora.chatgpt.com/).
+1. Navigate to [sora.chatgpt.com](https://sora.chatgpt.com/) and go to a **POST** or a **PROFILE**
 2. Click the **Soriginal** icon to open the Side Panel.
 3. **Config:** Paste your SerpApi API Key in the bar. Toggle *Strict Mode* for exact matches only.
 4. **Scan:** Click **Start**.
